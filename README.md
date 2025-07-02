@@ -31,12 +31,13 @@
   
 <h3>База данных:</h3>
 
-![db](https://github.com/user-attachments/assets/c6ff7449-3102-4d24-acc2-43cac4366f79)
+![db](https://github.com/user-attachments/assets/cdc3fc64-d4a0-4a80-9afa-6c562de53786)
 
 <h3>Страница регистрации:</h3>
 
-![login](https://github.com/user-attachments/assets/5391d20a-c92e-42b9-b055-ab1ea04ef216)
+![login](https://github.com/user-attachments/assets/355f1b60-8630-44f0-91e8-1b6d5be8c9c4)
 
 <h3>Галерея пользователя:</h3>
 
-![gallery](https://github.com/user-attachments/assets/4d792482-1918-4746-9b0f-e08877c446a2)
+![gallery](https://github.com/user-attachments/assets/f09c249b-ca8c-4895-96c4-a70e1e2632ad)
+
