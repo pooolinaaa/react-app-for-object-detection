@@ -1,0 +1,119 @@
+/* src/Home.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-form {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.toggle-button {
+  background: #e0e0e0;
+  color: #333;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.toggle-button:hover {
+  background: #d0d0d0;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  outline: none;
+  background: transparent;
+}
+
+.input-group .highlight {
+  position: absolute;
+  height: 80%;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background: #4e46e550;
+  transition: 0.5s;
+}
+
+.input-group input:focus ~ .highlight,
+.input-group input:valid ~ .highlight {
+  width: 100%;
+}
+
+.input-group .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #aaa;
+}
+
+.input-group .bar:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4f46e5;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.input-group input:focus ~ .bar:before,
+.input-group input:valid ~ .bar:before {
+  opacity: 1;
+}
+
+.login-form button[type="submit"] {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.login-form button[type="submit"]:hover {
+  background: #3c3881;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+/* src/PreviousDetections.css */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h2{
+    color: #2c3e50;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.custom-card {
+  border-radius: 15px !important; /* Увеличенная специфичность */
+  overflow: hidden !important;
+  border: 2px solid #e0e0e0 !important; /* Более заметная граница */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.custom-card .card-body {
+  background: #ffffff !important;
+  padding: 1rem !important;
+}
+

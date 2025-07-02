@@ -1,0 +1,62 @@
+/* src/Header.css */
+.header {
+  background: linear-gradient(to right, #4f46e5, #9233ea);
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between; /* Логотип слева, ссылки справа */
+  align-items: center; /* Выравнивание по вертикали */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Выравнивание по центру */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e0e0e0;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .nav-links {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
